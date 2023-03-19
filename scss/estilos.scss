@@ -31,25 +31,41 @@
 .html {
     font-size: 50%;
 }
-
-header nav div ul li {
-    display: flex;
-    height: 30px;
-    max-width: 10px;
-    overflow: auto;
-    text-decoration: none;
+ body {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-size: 100%;
+  
+header {
+    width: 100%;
+        height: 200px;
+        background: hsla(28, 19%, 40%, 0.423);
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, hsla(237, 93%, 77%, 0.447), hsla(237, 53%, 55%, 0.35)), url(../imagenes/imagenparalaola.jpge.jpeg);
+        ;
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, hsla(237, 93%, 77%, 0.447), hsla(237, 53%, 55%, 0.35)), url(../imagenes/imagenparalaola.jpge.jpeg);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    nav {
+        div {
+            ul {
+                li {
+                        display: flex;
+                        height: 30px;
+                        max-width: 10px;
+                        overflow: auto;
+                        text-decoration: none;
+                }
+            }
+        }
+    }
+}
 }
 
-
-body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-size: 100%;
-}
 
 
 div {
     margin: 2 px;
-    background: #0ccf16;
+    background: #ba8905;
     border: 2px solid rgb(12, 11, 11);
     overflow: auto;
 }
