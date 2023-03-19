@@ -1,166 +1,382 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
 
-body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-size: 100%; }
-  body div {
-    margin: 2 px;
-    background: #a9a9b0;
-    border: 2px solid #0c0b0b;
-    overflow: auto; }
-  body .fondo_del_fondo {
-    width: 100%;
-    background: #09078f; }
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+  body {
+    background-color: #F09A9D;
+    /* Red */
+  }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  body {
+    background-color: #F5CF8E;
+    /* Yellow */
+  }
+}
+
+/* Desktop Styles */
+
+@media only screen and (min-width: 961px) {
+  body {
+    background-color: #B2D6FF;
+    /* Blue */
+  }
+}
 
 .html {
-  font-size: 50%; }
+  font-size: 50%;
+}
+
+header nav div ul li {
+
+  display: flex;
+  height: 30px;
+  max-width: 10px;
+  overflow: auto;
+  text-decoration: none;
+
+}
+
+.secciones {
+  padding: 1%;
+  text-decoration: none;
+}
 
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-size: 100%;
-  /* Mobile Styles */
-  /* Tablet Styles */
-  /* Desktop Styles */
-  /* li */
-  /* Header */
-  /*About u */ }
-  @media only screen and (max-width: 400px) {
-    body body {
-      background-color: #F09A9D;
-      /* Red */ } }
-  @media only screen and (min-width: 401px) and (max-width: 960px) {
-    body body {
-      background-color: #F5CF8E;
-      /* Yellow */ } }
-  @media only screen and (min-width: 961px) {
-    body body {
-      background-color: #B2D6FF;
-      /* Blue */ }
-    body header div {
-      margin: 2 px;
-      background: #053bbae6;
-      border: 2px solid #0c0b0b;
-      overflow: auto; }
-      body header div nav ul li {
-        display: flex;
-        height: 30px;
-        max-width: 10px;
-        overflow: auto;
-        text-decoration: none; }
-    body div {
-      display: flex;
-      height: 30px;
-      max-width: 10px;
-      overflow: auto;
-      text-decoration: none; }
-    body .logo_estudio {
-      max-width: 7rem;
-      max-height: 7rem;
-      position: relative; } }
-  body .nav_bar {
-    padding: 4%;
-    text-decoration: none; }
-  body li {
-    display: inline;
-    margin: 40px;
-    border: #060617;
-    bottom: 20px;
-    text-decoration: none; }
-  body .nuestros_servicios {
-    bottom: auto;
-    left: auto;
-    text-shadow: #878a85;
-    background: fixed;
-    margin: auto; }
-  body .nuestros_servicios > h2 {
-    width: 100%;
-    bottom: 2000px;
-    color: #878a85;
-    text-decoration: none;
-    text-align: justify;
-    background: #060617; }
-  body .foto_demora_sentencia {
-    padding: 30px 20px 10px 50px; }
-  body .contenedor_sobre_nosotros {
-    width: 115 px 134 px;
-    background: aqua; }
-  body .contenedor_sobre_nosotros > img {
-    width: 100%;
-    padding: 5px; }
-  body .nuestros servicios {
-    bottom: 40px;
-    background: #8313de;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font: 300; }
-  body .contenedor_sobre_nosotros {
-    width: 30%; }
-  body .titulo {
-    color: #1c11e2;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 30px;
-    text-align: center;
-    margin-bottom: 60px;
-    background: #f2f2f2; }
-  body header {
-    width: 100%;
-    height: 200px;
-    background: rgba(121, 101, 83, 0.423);
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, rgba(142, 147, 251, 0.447), rgba(79, 86, 201, 0.35)), url(../imagenes/imagenparalaola.jpge.jpeg);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, rgba(142, 147, 251, 0.447), rgba(79, 86, 201, 0.35)), url(../imagenes/imagenparalaola.jpge.jpeg);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
-  body .secciones nav ul {
-    color: #fff;
-    font-weight: 300;
-    text-decoration: none;
-    margin-right: 30px; }
-  body nav a:hover {
-    text-decoration: underline; }
-  body header .textos_header {
-    display: flex;
-    height: 430 px;
-    width: 100%;
-    bottom: 20px;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: justify;
-    text-decoration: none; }
-  body .textos_header h1 {
-    font-size: 20px;
-    bottom: 40px;
-    color: #2b1212; }
-  body .textos_header h2 {
-    font-size: 20px;
-    font-weight: 300;
-    color: #020216;
-    bottom: 50px; }
-  body .wave {
-    bottom: 100px;
-    position: relative;
-    bottom: 60px;
-    width: 100%;
-    color: bisque; }
-  body .imagen-abaust-us {
-    width: 48%; }
-  body .contenido_textos > h3 {
-    width: 100%;
-    position: fixed;
-    color: coral; }
-  body .contenido_textos > h3 p {
-    color: coral; }
-  body .contenido_textos > h3 span {
-    background: #4d0686;
-    color: #fff;
-    border-radius: 50%;
-    display: inline-block;
-    text-align: center;
-    width: 30px;
-    height: 30px;
-    padding: 2px;
-    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
-    margin-right: 5px; }
+}
+
+
+div {
+  margin: 2 px;
+  background: #a9a9b0;
+  border: 2px solid rgb(12, 11, 11);
+  overflow: auto;
+}
+
+.fondo_del_fondo {
+  width: 100%;
+  background: #09078f;
+}
+
+.logo_estudio {
+  max-width: 7rem;
+  max-height: 7rem;
+  position: relative;
+
+}
+
+.nav_bar {
+  padding: 4%;
+  text-decoration: none;
+
+}
+
+/* li */
+li {
+  display: inline;
+  margin: 40px;
+  border: #060617;
+  bottom: 20px;
+  text-decoration: none;
+}
+
+.textos_header {
+  display: flex;
+}
+
+.nuestros_servicios {
+  bottom: auto;
+  left: auto;
+  text-shadow: #878a85;
+  background: fixed;
+  margin: auto;
+
+}
+
+.nuestros_servicios>h2 {
+  width: 100%;
+  bottom: 2000px;
+  color: #878a85;
+  text-decoration: none;
+  text-align: justify;
+  background: #060617;
+
+}
+
+.foto_demora_sentencia {
+  padding: 30px 20px 10px 50px;
+
+}
+
+.contenedor_sobre_nosotros {
+  width: 115 px 134 px;
+  background: aqua;
+}
+
+.contenedor_sobre_nosotros>img {
+  width: 100%;
+
+  padding: 5px;
+}
+
+.nuestros servicios {
+  bottom: 40px;
+  background: #8313de;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font: 300;
+}
+
+.contenedor_sobre_nosotros {
+  width: 30%;
+}
+
+.titulo {
+  color: #1c11e2;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 60px;
+  background: #f2f2f2;
+}
+
+/* Header */
+header {
+  width: 100%;
+  height: 200px;
+  background: hsla(28, 19%, 40%, 0.423);
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, hsla(237, 93%, 77%, 0.447), hsla(237, 53%, 55%, 0.35)), url(../imagenes/imagenparalaola.jpge.jpeg);
+  ;
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, hsla(237, 93%, 77%, 0.447), hsla(237, 53%, 55%, 0.35)), url(../imagenes/imagenparalaola.jpge.jpeg);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.secciones nav ul {
+  color: #fff;
+  font-weight: 300;
+  text-decoration: none;
+  margin-right: 30px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+header .textos_header {
+  display: flex;
+  height: 430 px;
+  width: 100%;
+  bottom: 20px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: justify;
+  text-decoration: none;
+}
+
+.textos_header h1 {
+  font-size: 20px;
+  bottom: 40px;
+  color: #2b1212
+}
+
+.textos_header h2 {
+  font-size: 20px;
+  font-weight: 300;
+  color: rgb(2, 2, 22);
+  bottom: 50px;
+}
+
+.wave {
+  bottom: 100px;
+  position: relative;
+  bottom: 60px;
+  width: 100%;
+  color: bisque;
+}
+
+
+/*About u */
+
+
+
+.imagen-abaust-us {
+  width: 48%;
+}
+
+.contenido_textos>h3 {
+  width: 100%;
+  position: fixed;
+  color: coral;
+
+}
+
+.contenido_textos>h3 p {
+  color: coral;
+}
+
+
+.contenido_textos>h3 span {
+  background: #4d0686;
+  color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  padding: 2px;
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+  margin-right: 5px;
+}
+
+footer div ul li {
+  display: inline-block;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  text-align: center;
+}
+
+.div_footer {
+  position: relative;
+  top: 0%;
+  left: 0%;
+  text-align: center;
+  background-color: #08415C;
+  font-size: 0%;
+  height: 6rem;
+  width: 100%;
+}
+
+.logowhatsapp {
+  height: 3rem;
+  width: 3rem;
+
+}
+
+.logoGmail {
+  height: 3rem;
+  width: 3rem;
+
+}
+
+.logoface {
+  height: 3rem;
+  width: 3rem;
+
+}
+
+.logoinstagram {
+  height: 3rem;
+  width: 3rem;
+}
+
+.lista_de_servicios {
+  position: relative;
+  width: 100%;
+
+}
+
+.largo {
+  height: 40rem;
+}
+
+.lista_izquierda {
+  position: absolute;
+  width: 33, 33%;
+  left: 0%;
+}
+
+.lista_medio {
+  position: absolute;
+  width: 33, 33%;
+  left: 33, 33%;
+}
+
+.lista_derecha {
+  position: absolute;
+  width: 33, 33%;
+  left: 66, 66%;
+}
+
+/*galeria*/
+.portafolio {
+  background: #f2f2f2;
+  display: flex;
+}
+
+.galeria-port {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.imagen_port {
+  width: 24%;
+  margin-bottom: 10px;
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+}
+
+.imagen_port>img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.hover-galeria {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  transform: scale(1);
+  background: hsla(273, 91%, 27%, 0.7);
+  transition: transform .5s;
+  justify-content: center;
+  align-items: column;
+}
+
+.hover-galeria img {
+  width: 50px;
+}
+
+.hover-galeria p {
+  color: #fff;
+
+}
+
+.imagen_port:hover.hover-galeria {
+  transform: scale(1);
+}
+
+.responsive-imag {
+  max-width: 100%;
+  height: auto;
+}
+
+/*Pseudoelementos*/
+h3:nth-child(1) {
+  background-color: #1b11e256;
+}
+
+h3:nth-child(3) {
+  background-color: #1b11e256;
+}
+
+h3:nth-child(5) {
+  background-color: #1b11e256;
+}

@@ -1,7 +1,6 @@
-@import'./base/reset';
-@import './partials/body';
-@use './scss\partials\_footer.scss ';
-
+@use'./base/reset';
+@use './partials/body';
+@use'./partials/footer';
 
 .html {
     font-size: 50%;
