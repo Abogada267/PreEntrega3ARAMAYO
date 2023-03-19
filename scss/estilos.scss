@@ -1,9 +1,6 @@
-@use "./partials/footer";
- * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+@use '/partials/footer';
+@use '/scss/base/reset';
+
 
 /* Mobile Styles */
 @media only screen and (max-width: 400px) {
