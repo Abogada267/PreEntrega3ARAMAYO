@@ -52,7 +52,7 @@ body header nav div ul li {
 
 div {
   margin: 2 px;
-  background: #ba8905;
+  background: rgba(5, 59, 186, 0.9019607843);
   border: 2px solid rgb(12, 11, 11);
   overflow: auto;
 }
