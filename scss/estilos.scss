@@ -34,15 +34,12 @@
         background-size: 100%;
   
 header {
-    width: 100%;
-        height: 200px;
-        background: hsla(28, 19%, 40%, 0.423);
-        /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, hsla(237, 93%, 77%, 0.447), hsla(237, 53%, 55%, 0.35)), url(../imagenes/imagenparalaola.jpge.jpeg);
-        ;
-        /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, hsla(237, 93%, 77%, 0.447), hsla(237, 53%, 55%, 0.35)), url(../imagenes/imagenparalaola.jpge.jpeg);
-        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+           div {
+              margin: 2 px;
+               background: #053bbae6;
+               border: 2px solid rgb(12, 11, 11);
+             overflow: auto;
+
     nav {
         div {
             ul {
@@ -58,16 +55,10 @@ header {
     }
 }
 }
-
-
-
-div {
-    margin: 2 px;
-    background: #053bbae6;
-
-    border: 2px solid rgb(12, 11, 11);
-    overflow: auto;
 }
+
+
+
 
 .logo_estudio {
     max-width: 7rem;
