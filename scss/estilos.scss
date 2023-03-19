@@ -1,4 +1,5 @@
-* {
+@use "./partials/footer";
+ * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -66,6 +67,7 @@ header {
 div {
     margin: 2 px;
     background: #053bbae6;
+
     border: 2px solid rgb(12, 11, 11);
     overflow: auto;
 }
