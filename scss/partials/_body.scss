@@ -1,84 +1,19 @@
-@import'./base/reset';
-@import './partials/body';
-@use './scss\partials\_footer.scss ';
 
-
-.html {
-    font-size: 50%;
-}
- body {
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        background-size: 100%;
-        /* Mobile Styles */
-        @media only screen and (max-width: 400px) {
-                body {
-                    background-color: #F09A9D;
-                    /* Red */
-                }
-            }
-        
-            /* Tablet Styles */
-            @media only screen and (min-width: 401px) and (max-width: 960px) {
-                body {
-                    background-color: #F5CF8E;
-                    /* Yellow */
-                }
-            }
-        
-            /* Desktop Styles */
-            @media only screen and (min-width: 961px) {
-                body {
-                    background-color: #B2D6FF;
-                    /* Blue */
-                }
-  
-header {
-           div {
-              margin: 2 px;
-               background: #053bbae6;
-               border: 2px solid rgb(12, 11, 11);
-             overflow: auto;
-
-    nav {
-           ul {
-                li {
-                        display: flex;
-                        height: 30px;
-                        max-width: 10px;
-                        overflow: auto;
-                        text-decoration: none;
-            }
-        }
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-size: 100%;
+div {
+        margin: 2 px;
+        background: #a9a9b0;
+        border: 2px solid rgb(12, 11, 11);
+        overflow: auto;
     }
+.fondo_del_fondo {
+    width: 100%;
+    background: #09078f;
 }
-}
-div{
+.textos_header {
     display: flex;
-    height: 30px;
-    max-width: 10px;
-    overflow: auto;
-    text-decoration: none;
-                }
-.logo_estudio
-           {
-    max-width: 7rem;
-    max-height: 7rem;
-    position: relative;
-}
-}
-
-.nav_bar {
-    padding: 4%;
-    text-decoration: none;
-}
-
-/* li */
-li {
-    display: inline;
-    margin: 40px;
-    border: #060617;
-    bottom: 20px;
-    text-decoration: none;
 }
 
 .nuestros_servicios {
