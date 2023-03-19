@@ -1,6 +1,5 @@
-@use '/partials/footer';
-@use '/scss/base/reset';
-
+@use './base/reset';
+@use './partials/footer';
 
 /* Mobile Styles */
 @media only screen and (max-width: 400px) {
@@ -32,6 +31,28 @@
  body {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         background-size: 100%;
+        /* Mobile Styles */
+        @media only screen and (max-width: 400px) {
+                body {
+                    background-color: #F09A9D;
+                    /* Red */
+                }
+            }
+        
+            /* Tablet Styles */
+            @media only screen and (min-width: 401px) and (max-width: 960px) {
+                body {
+                    background-color: #F5CF8E;
+                    /* Yellow */
+                }
+            }
+        
+            /* Desktop Styles */
+            @media only screen and (min-width: 961px) {
+                body {
+                    background-color: #B2D6FF;
+                    /* Blue */
+                }
   
 header {
            div {
@@ -41,21 +62,26 @@ header {
              overflow: auto;
 
     nav {
-        div {
-            ul {
+           ul {
                 li {
                         display: flex;
                         height: 30px;
                         max-width: 10px;
                         overflow: auto;
                         text-decoration: none;
-                }
             }
         }
     }
 }
 }
-npm .logo_estudio
+div{
+    display: flex;
+    height: 30px;
+    max-width: 10px;
+    overflow: auto;
+    text-decoration: none;
+                }
+.logo_estudio
            {
     max-width: 7rem;
     max-height: 7rem;
@@ -228,144 +254,4 @@ header .textos_header {
     box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
     margin-right: 5px;
 }
-
-footer div ul li {
-    display: inline-block;
-    margin-left: 2rem;
-    margin-right: 2rem;
-    text-align: center;
-}
-
-.div_footer {
-    position: relative;
-    top: 0%;
-    left: 0%;
-    text-align: center;
-    background-color: #08415C;
-    font-size: 0%;
-    height: 6rem;
-    width: 100%;
-}
-
-.logowhatsapp {
-    height: 3rem;
-    width: 3rem;
-
-}
-
-.logoGmail {
-    height: 3rem;
-    width: 3rem;
-
-}
-
-.logoface {
-    height: 3rem;
-    width: 3rem;
-
-}
-
-.logoinstagram {
-    height: 3rem;
-    width: 3rem;
-}
-
-.lista_de_servicios {
-    position: relative;
-    width: 100%;
-
-}
-
-.largo {
-    height: 40rem;
-}
-
-.lista_izquierda {
-    position: absolute;
-    width: 33, 33%;
-    left: 0%;
-}
-
-.lista_medio {
-    position: absolute;
-    width: 33, 33%;
-    left: 33, 33%;
-}
-
-.lista_derecha {
-    position: absolute;
-    width: 33, 33%;
-    left: 66, 66%;
-}
-
-/*galeria*/
-.portafolio {
-    background: #f2f2f2;
-    display: flex;
-}
-
-.galeria-port {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-}
-
-.imagen_port {
-    width: 24%;
-    margin-bottom: 10px;
-    height: 200px;
-    overflow: hidden;
-    position: relative;
-    cursor: pointer;
-    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
-}
-
-.imagen_port>img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
-}
-
-.hover-galeria {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    transform: scale(1);
-    background: hsla(273, 91%, 27%, 0.7);
-    transition: transform .5s;
-    justify-content: center;
-    align-items: column;
-}
-
-.hover-galeria img {
-    width: 50px;
-}
-
-.hover-galeria p {
-    color: #fff;
-
-}
-
-.imagen_port:hover.hover-galeria {
-    transform: scale(1);
-}
-
-.responsive-imag {
-    max-width: 100%;
-    height: auto;
-}
-
-/*Pseudoelementos*/
-h3:nth-child(1) {
-    background-color: #1b11e256;
-}
-
-h3:nth-child(3) {
-    background-color: #1b11e256;
-}
-
-h3:nth-child(5) {
-    background-color: #1b11e256;
 }
