@@ -1,5 +1,6 @@
 @use'./base/reset';
 @use './partials/body';
+@use './partials/header';
 @use'./partials/footer';
 
 .html {
@@ -51,13 +52,7 @@ header {
     }
 }
 }
-div{
-    display: flex;
-    height: 30px;
-    max-width: 10px;
-    overflow: auto;
-    text-decoration: none;
-                }
+
 .logo_estudio
            {
     max-width: 7rem;
@@ -66,10 +61,6 @@ div{
 }
 }
 
-.nav_bar {
-    padding: 4%;
-    text-decoration: none;
-}
 
 /* li */
 li {
