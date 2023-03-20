@@ -1,0 +1,17 @@
+@mixin logo {
+    height: 3rem;
+    width: 3rem;
+}
+footer .logowhatsapp {
+    @include logo;
+}
+footer .logoGmail {
+        @include logo;
+    }
+footer .logoface {
+            @include logo;
+        }
+
+footer .logoinstagram {
+                    @include logo;
+                }
