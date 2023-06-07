@@ -1,0 +1,69 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #d0cfd4;
+    /* Fondo blanco */
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+button {
+    padding: 5px 10px;
+}
+
+/* Estilos para las cartas */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.consulta {
+    border: 1px solid #161515;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    background-color: #6294c5;
+    color: #000000;
+    /* Fondo marino, letras negras */
+}
+
+.consulta h3 {
+    margin-top: 0;
+}
+
+/* Estilos para el filtro */
+#filter {
+    margin-bottom: 20px;
+}
+
+/* Estilos para el carrito */
+#cart {
+    margin-top: 20px;
+}
+
+#cart-items {
+    list-style: none;
+    padding: 0;
+}
+
+#cart-items li {
+    margin-bottom: 10px;
+}
+
+#total {
+    font-weight: bold;
+}
+
+#vaciar-carrito,
+#comprar {
+    margin-top: 10px;
+}

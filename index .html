@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tienda de Consultas Jurídicas</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+  <h1>Consultas Jurídicas Abogada Malvina Aramayo & Asociados</h1>
+
+  <div id="filter">
+    <label for="filter-select">Filtrar por tipo de consulta:</label>
+    <select id="filter-select">
+      <option value="todos">Todos</option>
+      <option value="simples">Por simples</option>
+      <option value="complejos">Por complejos</option>
+    </select>
+  </div>
+
+  <div id="consultas-container" class="card-container"></div>
+
+  <div id="cart">
+    <h2>Carrito</h2>
+    <ul id="cart-items"></ul>
+    <p>Total: $<span id="total"></span></p>
+    <button id="vaciar-carrito">Vaciar Carrito</button>
+    <button id="comprar">Comprar</button>
+  </div>
+
+  <script src="./js/main.js"></script>
+</body>
+
+</html>
